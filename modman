@@ -1,10 +1,33 @@
 #BackendModule
 app/code/community/German/LocalePackNl app/code/community/German/LocalePackNl
 app/etc/modules/German_LocalePackNl.xml app/etc/modules/German_LocalePackNl.xml
+app/design/adminhtml/default/default/layout/localepacknl.xml app/design/adminhtml/default/default/layout/localepacknl.xml
 
 #Downloader
 downloader/template_nl_1.5 downloader/template_nl_1.5
 downloader/template_nl_1.7 downloader/template_nl_1.7
+
+#Misc
+js/german/localepacknl/setup.js js/german/localepacknl/setup.js
+
+#TinyMCE
+js/tiny_mce/langs/nl.js js/tiny_mce/langs/nl.js
+js/tiny_mce/plugins/advhr/langs/nl_dlg.js js/tiny_mce/plugins/advhr/langs/nl_dlg.js
+js/tiny_mce/plugins/advimage/langs/nl_dlg.js js/tiny_mce/plugins/advimage/langs/nl_dlg.js
+js/tiny_mce/plugins/advlink/langs/nl_dlg.js js/tiny_mce/plugins/advlink/langs/nl_dlg.js
+js/tiny_mce/plugins/autosave/langs/nl.js js/tiny_mce/plugins/autosave/langs/nl.js
+js/tiny_mce/plugins/emotions/langs/nl_dlg.js js/tiny_mce/plugins/emotions/langs/nl_dlg.js
+js/tiny_mce/plugins/fullpage/langs/nl_dlg.js js/tiny_mce/plugins/fullpage/langs/nl_dlg.js
+js/tiny_mce/plugins/media/langs/nl_dlg.js js/tiny_mce/plugins/media/langs/nl_dlg.js
+js/tiny_mce/plugins/paste/langs/nl_dlg.js js/tiny_mce/plugins/paste/langs/nl_dlg.js
+js/tiny_mce/plugins/searchreplace/langs/nl_dlg.js js/tiny_mce/plugins/searchreplace/langs/nl_dlg.js
+js/tiny_mce/plugins/style/langs/nl_dlg.js js/tiny_mce/plugins/style/langs/nl_dlg.js
+js/tiny_mce/plugins/table/langs/nl_dlg.js js/tiny_mce/plugins/table/langs/nl_dlg.js
+js/tiny_mce/plugins/template/langs/nl_dlg.js js/tiny_mce/plugins/template/langs/nl_dlg.js
+js/tiny_mce/plugins/xhtmlxtras/langs/nl_dlg.js js/tiny_mce/plugins/xhtmlxtras/langs/nl_dlg.js
+js/tiny_mce/themes/advanced/langs/nl.js js/tiny_mce/themes/advanced/langs/nl.js
+js/tiny_mce/themes/advanced/langs/nl_dlg.js js/tiny_mce/themes/advanced/langs/nl_dlg.js
+js/tiny_mce/themes/simple/langs/nl.js js/tiny_mce/themes/simple/langs/nl.js
 
 #LocalePack Translation
 app/locale/de_DE/German_LocaleNl.csv app/locale/de_DE/German_LocaleNl.csv
