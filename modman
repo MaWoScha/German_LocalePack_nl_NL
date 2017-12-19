@@ -1,3 +1,13 @@
+#BackendModule
+app/code/community/German/LocalePackNl app/code/community/German/LocalePackNl
+app/etc/modules/German_LocalePackNl.xml app/etc/modules/German_LocalePackNl.xml
+
+#LocalePack Translation
+app/locale/de_DE/German_LocaleNl.csv app/locale/de_DE/German_LocaleNl.csv
+app/locale/en_US/German_LocaleNl.csv app/locale/en_US/German_LocaleNl.csv
+app/locale/nl_NL/German_LocaleNl.csv app/locale/nl_NL/German_LocaleNl.csv
+
+#Email templates
 app/locale/nl_NL/template/email/account_new.html app/locale/nl_NL/template/email/account_new.html
 app/locale/nl_NL/template/email/account_new_confirmation.html app/locale/nl_NL/template/email/account_new_confirmation.html
 app/locale/nl_NL/template/email/account_new_confirmed.html app/locale/nl_NL/template/email/account_new_confirmed.html
@@ -34,6 +44,8 @@ app/locale/nl_NL/template/email/track/* app/locale/nl_NL/template/email/track
 app/locale/nl_NL/template/email/webforms/* app/locale/nl_NL/template/email/webforms
 app/locale/nl_NL/template/email/webshopapps_log_email.html app/locale/nl_NL/template/email/webshopapps_log_email.html
 app/locale/nl_NL/template/email/wishlist_share.html app/locale/nl_NL/template/email/wishlist_share.html
+
+#CoreTranslation
 app/locale/nl_NL/AW_Advancednewsletter.csv app/locale/nl_NL/AW_Advancednewsletter.csv
 app/locale/nl_NL/AW_Ajaxcartpro.csv app/locale/nl_NL/AW_Ajaxcartpro.csv
 app/locale/nl_NL/AW_Checkoutpromo.csv app/locale/nl_NL/AW_Checkoutpromo.csv

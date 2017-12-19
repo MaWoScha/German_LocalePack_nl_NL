@@ -1,21 +1,33 @@
 {
-    "name": "ho-nl/ho_nl_nl",
-    "type": "magento-module",
-    "license":"OSL-3.0",
-    "description":"Nederlandse vertalingen voor Magento",
-    "homepage": "http://www.h-o.nl/blog/nederlandse-vertalingen-magento-17-inclusief-e-mailvertalingen/",
-    "authors":[
-        {
-            "name":"Paul Hachmang",
-            "email":"paul@h-o.nl"
-        }
-    ],
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
+  "name": "mawoscha/german_localepack_nl_nl",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Dutch (Netherlands) Community Translation",
+  "authors":[
+    {
+      "name":"Paul Hachmang",
+      "email":"paul@h-o.nl"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.9-dev"
-        }
+    {
+      "name":"MaWoScha",
+      "email":"manfredwormschaefer@gmail.com"
     }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackNl", "./app/code/community/German/LocalePackNl"],
+      ["./app/etc/modules/German_LocalePackNl.xml", "./app/etc/modules/German_LocalePackNl.xml"],
+      ["./app/locale/de_DE/German_LocaleNl.csv", "./app/locale/de_DE/German_LocaleNl.csv"],
+      ["./app/locale/en_US/German_LocaleNl.csv", "./app/locale/en_US/German_LocaleNl.csv"],
+      ["./app/locale/nl_NL/German_LocaleNl.csv", "./app/locale/nl_NL/German_LocaleNl.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
 }

@@ -1,10 +1,58 @@
-## system files
+# ignoriert alle Dateien im build/ Verzeichnis
+_other_stuff
+LICENSE*
+RELEASE*
+api.php
+app/Mage.php
+app/bootstrap.php
+app/code/core/
+app/design/adminhtml/default/default/etc
+app/design/adminhtml/default/default/template
+app/design/frontend/base/
+app/design/install/
+app/locale/en_US
+app/locale/nl_NL/TIG_PostNL.csv
+app/locale/nl_NL/template/email/TIG/PostNL
+cron*
+dev/
+errors/
+favicon.ico
+get.php
+includes/
+index.php.sample
+install.php
+lib/
+mage
+media/
+php.ini.sample
+pkginfo/
+shell/
+skin/adminhtml/
+skin/frontend/base/
+skin/frontend/default/blank/
+skin/frontend/default/blue/
+skin/frontend/default/french/
+skin/frontend/default/german/
+skin/frontend/default/iphone/
+skin/frontend/default/modern/
+skin/frontend/rwd/
+skin/install/
+var/backups/
+var/cache/
+var/locks/
+var/package
+var/report/
+var/session/
+# ignoriert alle "Punkt"-Dateien
+*.htaccess
+.htaccess*
+.gitignore
+# ignoriert alle Dateien, die mit -original/-disabled enden
+*-original
+*-disabled
+# ignoriert alle Mac-Dateien "DS_Store"
+.DS_Store
+._.DS_Store
 .DS_Store
 .idea
 Thumbs.db
-
-Enterprise_*
-app/locale/en_US
-
-/app/locale/nl_NL/TIG_PostNL.csv
-/app/locale/nl_NL/template/email/TIG/PostNL
