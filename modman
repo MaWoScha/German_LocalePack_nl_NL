@@ -2,6 +2,10 @@
 app/code/community/German/LocalePackNl app/code/community/German/LocalePackNl
 app/etc/modules/German_LocalePackNl.xml app/etc/modules/German_LocalePackNl.xml
 
+#Downloader
+downloader/template_nl_1.5 downloader/template_nl_1.5
+downloader/template_nl_1.7 downloader/template_nl_1.7
+
 #LocalePack Translation
 app/locale/de_DE/German_LocaleNl.csv app/locale/de_DE/German_LocaleNl.csv
 app/locale/en_US/German_LocaleNl.csv app/locale/en_US/German_LocaleNl.csv

@@ -115,6 +115,10 @@ Por desgracia, es por lo tanto no instalar fácilmente nuestro paquete de idioma
 
 Tenga en cuenta también: Desinstalar la traducción fabricante a través de Magento Connect Manager no funcionará porque el paquete principal de Magento ha definido este paquete de idioma como requisito previo. La eliminación manual en el servidor funciona sin embargo, sin ningún problema.
 
+# Things to be done / Dingen om te doen / Noch zu erledigen / Aún por hacer
+1. Downloader
+is still not translated.
+
 ----
 
 # Nederlandse Magento vertalingen (1.7.x, 1.8.x en 1.9.x)
