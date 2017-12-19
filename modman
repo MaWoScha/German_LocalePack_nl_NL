@@ -33,6 +33,13 @@ js/tiny_mce/themes/simple/langs/nl.js js/tiny_mce/themes/simple/langs/nl.js
 app/locale/de_DE/German_LocaleNl.csv app/locale/de_DE/German_LocaleNl.csv
 app/locale/en_US/German_LocaleNl.csv app/locale/en_US/German_LocaleNl.csv
 app/locale/nl_NL/German_LocaleNl.csv app/locale/nl_NL/German_LocaleNl.csv
+#Adminhtml und Default Theme
+app/design/adminhtml/default/default/locale/nl_NL/translate.csv app/design/adminhtml/default/default/locale/nl_NL/translate.csv
+app/design/frontend/default/blank/locale/nl_NL/translate.csv app/design/frontend/default/blank/locale/nl_NL/translate.csv
+app/design/frontend/default/default/locale/nl_NL/translate.csv app/design/frontend/default/default/locale/nl_NL/translate.csv
+app/design/frontend/default/iphone/locale/nl_NL/translate.csv app/design/frontend/default/iphone/locale/nl_NL/translate.csv
+app/design/frontend/default/modern/locale/nl_NL/translate.csv app/design/frontend/default/modern/locale/nl_NL/translate.csv
+app/design/frontend/rwd/default/locale/nl_NL/translate.csv app/design/frontend/rwd/default/locale/nl_NL/translate.csv
 
 #Email templates
 app/locale/nl_NL/template/email/account_new.html app/locale/nl_NL/template/email/account_new.html
@@ -107,8 +114,9 @@ app/locale/nl_NL/Innoexts_ShippingTablerate.csv app/locale/nl_NL/Innoexts_Shippi
 app/locale/nl_NL/Innoexts_Warehouse.csv app/locale/nl_NL/Innoexts_Warehouse.csv
 app/locale/nl_NL/MageWorx_Adminhtml.csv app/locale/nl_NL/MageWorx_Adminhtml.csv
 app/locale/nl_NL/MageWorx_CustomOptions.csv app/locale/nl_NL/MageWorx_CustomOptions.csv
-app/locale/nl_NL/Mage_AdminNotification.csv app/locale/nl_NL/Mage_AdminNotification.csv
 app/locale/nl_NL/Mage_Adminhtml.csv app/locale/nl_NL/Mage_Adminhtml.csv
+app/locale/nl_NL/Mage_AdminNotification.csv app/locale/nl_NL/Mage_AdminNotification.csv
+app/locale/nl_NL/Mage_AmazonPayments.csv app/locale/nl_NL/Mage_AmazonPayments.csv
 app/locale/nl_NL/Mage_Api.csv app/locale/nl_NL/Mage_Api.csv
 app/locale/nl_NL/Mage_Api2.csv app/locale/nl_NL/Mage_Api2.csv
 app/locale/nl_NL/Mage_Authorizenet.csv app/locale/nl_NL/Mage_Authorizenet.csv
@@ -124,6 +132,7 @@ app/locale/nl_NL/Mage_Centinel.csv app/locale/nl_NL/Mage_Centinel.csv
 app/locale/nl_NL/Mage_Checkout.csv app/locale/nl_NL/Mage_Checkout.csv
 app/locale/nl_NL/Mage_Cms.csv app/locale/nl_NL/Mage_Cms.csv
 app/locale/nl_NL/Mage_Compiler.csv app/locale/nl_NL/Mage_Compiler.csv
+app/locale/nl_NL/Mage_ConfigurableSwatches.csv app/locale/nl_NL/Mage_ConfigurableSwatches.csv
 app/locale/nl_NL/Mage_Connect.csv app/locale/nl_NL/Mage_Connect.csv
 app/locale/nl_NL/Mage_Contacts.csv app/locale/nl_NL/Mage_Contacts.csv
 app/locale/nl_NL/Mage_Core.csv app/locale/nl_NL/Mage_Core.csv
@@ -169,6 +178,7 @@ app/locale/nl_NL/Mage_Sitemap.csv app/locale/nl_NL/Mage_Sitemap.csv
 app/locale/nl_NL/Mage_Strikeiron.csv app/locale/nl_NL/Mage_Strikeiron.csv
 app/locale/nl_NL/Mage_Tag.csv app/locale/nl_NL/Mage_Tag.csv
 app/locale/nl_NL/Mage_Tax.csv app/locale/nl_NL/Mage_Tax.csv
+app/locale/nl_NL/Mage_Uploader.csv app/locale/nl_NL/Mage_Uploader.csv
 app/locale/nl_NL/Mage_Usa.csv app/locale/nl_NL/Mage_Usa.csv
 app/locale/nl_NL/Mage_Weee.csv app/locale/nl_NL/Mage_Weee.csv
 app/locale/nl_NL/Mage_Widget.csv app/locale/nl_NL/Mage_Widget.csv

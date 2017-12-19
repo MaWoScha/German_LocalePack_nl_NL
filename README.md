@@ -120,6 +120,10 @@ Tenga en cuenta también: Desinstalar la traducción fabricante a través de Mag
 2. TinyMCE
 are still not translated.
 
+# See also / Zie ook / Siehe auch / Véase también
+* [German LocalePack en_GB](https://github.com/MaWoScha/German_LocalePack_en_GB)
+* [German LocalePack en_US](https://github.com/MaWoScha/German_LocalePack_en_US)
+
 ----
 
 # Nederlandse Magento vertalingen (1.7.x, 1.8.x en 1.9.x)
