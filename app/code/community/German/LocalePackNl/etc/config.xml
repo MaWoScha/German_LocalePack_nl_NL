@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackNl>
-            <version>0.3.0</version>
+            <version>0.3.9</version>
             <locale>nl_NL</locale>
             <title>Dutch (Netherlands) Language Pack</title>
             <link_git>https://github.com/mawoscha/German_LocalePack_nl_NL</link_git>
@@ -44,6 +44,16 @@
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
+        <resources>
+            <localepacknl_setup>
+                <setup>
+                    <module>German_LocalePackNl</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </localepacknl_setup>
+        </resources>
     </global>
 
     <default>

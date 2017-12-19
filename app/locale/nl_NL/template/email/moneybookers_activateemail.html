@@ -1,6 +1,9 @@
 <!--@subject {{var subject}} @-->
-Magento<br>
-Moneybookers e-mail adres: {{var email_addr}}<br>
-Moneybookers klant ID: {{var customer_id}}<br>
-URL: {{var url}}<br>
-Taal: {{var language}}<br>
+{{template config_path="design/email/header"}}
+<p>
+Moneybookers e-mail adres: {{var email_addr}} <br />
+Moneybookers klant ID: {{var customer_id}} <br />
+URL: {{var url}} <br />
+Taal: {{var language}}
+</p>
+{{template config_path="design/email/footer"}}

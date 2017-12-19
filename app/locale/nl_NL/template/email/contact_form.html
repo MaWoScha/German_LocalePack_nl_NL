@@ -5,10 +5,12 @@
 "var data.telephone":"Sender Telephone",
 "var data.comment":"Comment"}
 @-->
-Een bezoeker heeft het contactformulier van de webshop ingevuld:
-
-Naam: {{var data.name}}
-E-mail: {{var data.email}}
-Telefoon: {{var data.telephone}}
-
+{{template config_path="design/email/header"}}
+<p>Een bezoeker heeft het contactformulier van de webshop ingevuld:</p>
+<p>
+Naam: {{var data.name}} <br />
+E-mail: {{var data.email}} <br />
+Telefoon: {{var data.telephone}} <br /><br />
 Bericht: {{var data.comment}}
+</p>
+{{template config_path="design/email/footer"}}

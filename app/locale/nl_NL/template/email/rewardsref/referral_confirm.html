@@ -14,7 +14,7 @@
                 <!-- [ middle starts here] -->
                 <tr>
                     <td valign="top">
-                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">Gefeliciteerd {{var affiliate.name}}!</p>
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">{{block type="cms/block" block_id="email_template_say_hello"}} {{var affiliate.name}}!</p>
                         <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">{{var referral.referral_name}} ({{var referral.referral_email}}) die u naar onze website heeft doorverwezen, heeft iets op {{var store_name}} gedaan waardoor u punten heeft verdient.</p>
                         <p style="font-size:12px; line-height:16px; margin:0;"><a href="{{store url="customer/account/login"}}">Log in op {{var store_name}}</a> om uw punten direct in te zien!</p>
                     </td>

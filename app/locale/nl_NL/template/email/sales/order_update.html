@@ -10,6 +10,7 @@
 "var comment":"Order Comment",
 "var store.getFrontendName()":"Store Name"}
 @-->
+
 <!--@styles
 @-->
 
@@ -18,27 +19,20 @@
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-        <td>
-            <table cellpadding="0" cellspacing="0" border="0">
+        <td class="action-content">
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}}</h1>
+            <p>Uw bestelling met bestelnummer <span class="no-link"># {{var order.increment_id}}</span> staat nu op status: <strong>{{var order.getStatusLabel()}}</strong></p>
+            {{if comment}}
+            <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td class="action-content">
-                        <h1>Beste {{htmlescape var=$order.getCustomerName()}},</h1>
-                        <p>Uw bestelling met bestelnummer <span class="no-link">#{{var order.increment_id}}</span> staat nu op status: <strong>{{var order.getStatusLabel()}}</strong></p>
-                        {{if comment}}
-                        <table cellspacing="0" cellpadding="0" class="message-container">
-                            <tr>
-                                <td>{{var comment}}</td>
-                            </tr>
-                        </table>
-                        {{/if}}
-                        <p>U kunt de status van uw bestelling controleren door in te loggen op <a href="{{store url="customer/account/"}}">uw account</a>.</p>
-						<p>
-							Indien u nog vragen heeft, kunt u contact met ons opnemen via email door een bericht te sturen naar <a href="mailto:{{var store_email}}">{{var store_email}}</a>
-							{{depend store_phone}} of telefonisch via <a href="tel:{{var phone}}">{{var store_phone}}</a>{{/depend}}.
-						</p>
-                    </td>
+                    <td>{{var comment}}</td>
                 </tr>
             </table>
+            {{/if}}
+            <p>U kunt de status van uw bestelling controleren door in te loggen op <a href="{{store url="customer/account/"}}">uw account</a>.</p>
+            <p>
+                {{block type="cms/block" block_id="email_template_contact"}}
+            </p>
         </td>
     </tr>
 </table>

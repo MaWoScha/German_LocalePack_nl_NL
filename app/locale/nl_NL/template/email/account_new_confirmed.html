@@ -1,4 +1,4 @@
-<!--@subject Welkom, {{var customer.name}}! @-->
+<!--@subject Gebruikersaccount voor {{var customer.name}} is succesvol bevestigd! @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -16,8 +16,9 @@
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
-            <h1>Beste {{htmlescape var=$customer.name}},</h1>
-            <p>Bedankt voor uw registratie bij {{var store.getFrontendName()}}. Om toegang te krijgen tot uw account, kunt u bovenaan iedere pagina op onze webshop klikken op <a href="{{store url="customer/account/"}}">Log in</a> of <a href="{{store url="customer/account/"}}">Mijn account</a>. Uw inloggegevens bestaan uit uw e-mailadres en het wachtwoord dat u heeft opgegeven bij registratie.</p>
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
+            <p>Welkom bij {{var store.getFrontendName()}}.</p>
+            <p>Om toegang te krijgen tot uw account, kunt u bovenaan iedere pagina op onze webshop klikken op <a href="{{store url="customer/account/"}}">Log in</a> of <a href="{{store url="customer/account/"}}">Mijn account</a>. Uw inloggegevens bestaan uit uw e-mailadres en het wachtwoord dat u heeft opgegeven bij registratie.</p>
             <p>Wanneer u ingelogd bent kunt u:</p>
             <ul>
                 <li>Het betaalproces sneller afronden.</li>
@@ -28,8 +29,7 @@
                 <li>Verschillende verzendadressen opslaan om een bestelling naar verschillende adressen te versturen. Handig voor het sturen van cadeau's naar vrienden en familie!</li>
             </ul>
             <p>
-                Indien u nog vragen heeft, kunt u contact met ons opnemen via email door een bericht te sturen naar <a href="mailto:{{var store_email}}">{{var store_email}}</a>
-                {{depend store_phone}} of telefonisch via <a href="tel:{{var phone}}">{{var store_phone}}</a>{{/depend}}.
+                {{block type="cms/block" block_id="email_template_contact"}}
             </p>
         </td>
     </tr>

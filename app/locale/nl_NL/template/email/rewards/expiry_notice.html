@@ -14,7 +14,7 @@
                 <!-- [ middle starts here] -->
                 <tr>
                     <td valign="top">
-                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">Beste {{var customer_name}},</p>
+                        <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">{{block type="cms/block" block_id="email_template_say_hello"}} {{var customer_name}},</p>
                         <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">Bij deze willen wij u melden dat uw punten ({{var points_balance}}) op <a href="{{store url=""}}">{{var store_name}}</a> zal verlopen over <b>{{var days_left}} dagen</b>. </p>
 
                         <p style="font-size:12px; line-height:16px; margin:0 0 8px 0;">U kunt voorkomen dat deze punten verlopen door <a href="{{store url="customer/account/login"}}">in te loggen op uw account</a> en of:</p>

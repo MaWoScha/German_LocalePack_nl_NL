@@ -20,7 +20,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     <tr>
                         <td valign="top">
                             <h1 style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0;">Er is een reactie op uw bericht geplaatst.</h1>
-                            <p style="font-size:12px; line-height:16px; margin:0;">Hallo {{var subscription.getCustomerName()}},</p>
+                            <p style="font-size:12px; line-height:16px; margin:0;">{{block type="cms/block" block_id="email_template_say_hello"}} {{var subscription.getCustomerName()}},</p>
                             <p style="font-size:12px; line-height:16px; margin:0;">Er is een reactie op uw bericht geplaatst: <a href="{{var post.getPostUrl()}}" target="_blank">&quot;{{var post.getTitle()}}&quot;</a></p>
                             <p style="font-size:12px; line-height:16px; margin:0;">Bekijk reactie:: <a href="{{var comment.getCommentUrl()}}" target="_blank">{{var comment.getCommentUrl()}}</a></p>
                             <p style="font-size:10px; line-height:16px; margin:0;">u ontvangt deze e-mail omdat u geabonnememeerd bent op nieuwe reacties van <a href="{{var post.getPostUrl()}}" target="_blank">&quot;{{var post.getTitle()}}&quot;</a>. Om uw zelf uit te schrijven, klik <a href="{{var subscription.getUnsubscribeUrl()}}">hier</a>.</p>
