@@ -33,6 +33,7 @@ js/tiny_mce/themes/simple/langs/nl.js js/tiny_mce/themes/simple/langs/nl.js
 app/locale/de_DE/German_LocaleNl.csv app/locale/de_DE/German_LocaleNl.csv
 app/locale/en_US/German_LocaleNl.csv app/locale/en_US/German_LocaleNl.csv
 app/locale/nl_NL/German_LocaleNl.csv app/locale/nl_NL/German_LocaleNl.csv
+
 #Adminhtml und Default Theme
 app/design/adminhtml/default/default/locale/nl_NL/translate.csv app/design/adminhtml/default/default/locale/nl_NL/translate.csv
 app/design/frontend/default/blank/locale/nl_NL/translate.csv app/design/frontend/default/blank/locale/nl_NL/translate.csv

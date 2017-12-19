@@ -166,8 +166,6 @@ Kom je een probleem tegen, maak een issue aan via de [Issue tracker](https://git
 
 ## Over de auteurs
 
-![Over H&O](http://www.h-o.nl/skin/frontend/h-o/images/logo.png)
-
 __H&O is expert in het oplossen van complexe Magento vraagstukken, maatwerk grafisch ontwerp en het bouwen
 van custom Magento modules.__
 

@@ -63,6 +63,7 @@
 "Google Order Status Change:","Google bestelstatus verandering:"
 "Google Refund:","Google creditering:"
 "Google Risk Information:","Google Risico Informatie:"
+"GoogleCheckout is not configured","GoogleCheckout is niet geconfigureerd"
 "Ground","Grond vervoer"
 "Hide Cart Contents","Verberg inhoud winkelwagen"
 "Home Delivery","Huis aflevering"
@@ -128,4 +129,3 @@
 "White Background","Witte achtergrond"
 "Yes","Ja"
 "You will be redirected to GoogleCheckout in a few seconds.","U wordt binnen enkele seconden doorverwezen naar Google Checkout"
-"GoogleCheckout is not configured","GoogleCheckout is niet geconfigureerd"
