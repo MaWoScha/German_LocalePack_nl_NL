@@ -113,6 +113,7 @@
 "The page has been deleted.","De pagina is verwijderd"
 "The page has been saved.","De pagina is opgeslagen"
 "The static block content cannot contain  directive with its self.","De inhoud van het content blok laadt zichzelf in."
+"The static block content cannot contain directive with its self.","De inhoud van het content blok laadt zichzelf in."
 "This block no longer exists.","Dit blok bestaat niet langer meer"
 "This page no longer exists.","Deze pagina bestaat niet langer meer"
 "Title","Titel"

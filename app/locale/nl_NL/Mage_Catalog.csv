@@ -102,6 +102,7 @@
 "Attribute Sets","Attribuut-sets"
 "Attribute add","Attribuut toevoegen"
 "Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attribuut-code is ongeldig. Gebruik alleen letters (a-z), cijfers (0-9) of underscores (_) in dit veld. Eerste karakter moet een letter zijn."
+"Attribute names can be specified per store.","Attribute names can be specified per store."
 "Attribute group with the \"/name/\" name already exists","Attribute group with the \"/name/\" name already exists"
 "Attribute group with the \/name/\ name already exists","Attribute group with the \/name/\ name already exists"
 "Attribute remove","Verwijder attribuut"
