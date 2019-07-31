@@ -46,28 +46,28 @@ This is a derived work of [magento1-Ho_nl_NL](https://github.com/ho-nl/magento1-
 refactured and internationalized by MaWoScha.
 
 This extension is tested with Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 and 1.9.1. <br />
-The language pack is suitable for Magento 1.6.x to 1.9.3.x
+The language pack is suitable for Magento 1.6.x to 1.9.3.10
 
 
 Dit is een afgeleid werk van [magento1-Ho_nl_NL](https://github.com/ho-nl/magento1-Ho_nl_NL) van [H&O](https://github.com/ho-nl/), <br / >
 gerefactureerd en geïnternationaliseerd door MaWoScha.
 
 Deze extensie is getest met Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 en 1.9.1. <br />
-Het taalpakket is geschikt voor Magento 1.6.x tot 1.9.3.x
+Het taalpakket is geschikt voor Magento 1.6.x tot 1.9.3.10
 
 
 Dies ist eine abgeleitete Arbeit von [magento1-Ho_nl_NL](https://github.com/ho-nl/magento1-Ho_nl_NL) von [H&O](https://github.com/ho-nl/),<br />
 überarbeitet und internationalisiert von MaWoScha.
 
 Diese Erweiterung ist mit Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 und 1.9.1 getestet. <br />
-Das Sprachpaket ist für Magento 1.6.x bis 1.9.3.x
+Das Sprachpaket ist für Magento 1.6.x bis 1.9.3.10
 
 
 Se trata de una obra derivada de [magento1-Ho_nl_NL](https://github.com/ho-nl/magento1-Ho_nl_NL) de [H&O](https://github.com/ho-nl/),<br />
 revisado e internacionalizado de MaWoScha.
 
 Esta extensión se prueba con Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 y 1.9.1. <br />
-El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.3.x
+El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.3.10
 
 
 ## Installation instructions / Installatie instructies / Installationshinweise / Instrucciones de instalación
