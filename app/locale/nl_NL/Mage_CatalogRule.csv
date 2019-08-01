@@ -60,5 +60,6 @@
 "Update product's %s %s: %s","Product's %s %s: %s bijwerken"
 "Website","Website"
 "Websites","Websites"
-"Wrong rule specified.","Foutieve regel gespecificeerd"
+"Wrong rule specified","Foutieve regel gespecificeerd"
+"Wrong rule specified.","Foutieve regel gespecificeerd."
 "Yes","Ja"

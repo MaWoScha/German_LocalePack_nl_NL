@@ -3,6 +3,7 @@
 "Accepted Currency","Geaccepteerde valuta"
 "Amount of %s approved by payment gateway. Transaction ID: ""%s"".","Het bedrag %s is goedgekeurd door het betaalplatform. Transactie ID: ""%s""."
 "Authorize.net Direct Post","Authorize.net Direct Post"
+"Authorize.net Direct Post (Deprecated)","Authorize.net Direct Post (Deprecated)"
 "Card Verification Number","Card Verificatie Nummer"
 "Card Verification Number Visual Reference","Card Verificate Nummer Visuele Referentie"
 "Close","Sluiten"

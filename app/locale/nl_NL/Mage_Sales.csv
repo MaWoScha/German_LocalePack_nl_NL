@@ -290,6 +290,7 @@
 "Invalid draw line data. Please define ""lines"" array.","Invalid draw line data. Please define ""lines"" array."
 "Invalid entity model","Ongeldige entity-model"
 "Invalid item option format.","Ongeldig formaat artikel-optie"
+"Invalid order data.","Ongeldige bestelgegevens."
 "Invalid qty to invoice item ""%s""","Ongeldige aantal voor factureren van artikel ""%s"""
 "Invalid qty to refund item ""%s""","Ongeldig aantal voor terugstorten van artikel ""%s"""
 "Invalid qty to ship for item ""%s""","Ongeldig aantal voor verzenden van artikel ""%s"""

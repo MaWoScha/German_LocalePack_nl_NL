@@ -19,6 +19,7 @@
 "Discount","Korting"
 "Discount (%s)","Korting (%s)"
 "Enable RSS","RSS inschakelen"
+"Enabling can increase security risk by exposing some order details.","Inschakelen kan het veiligheidsrisico verhogen door het blootleggen van bepaalde ordergegevens."
 "Error in processing xml. %s","Fout tijdens verwerken van XML. %s"
 "From:","Van:"
 "Get Feed","Feed opvragen"

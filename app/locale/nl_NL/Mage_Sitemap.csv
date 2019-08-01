@@ -25,6 +25,7 @@
 "Path","Pad:"
 "Please create the specified folder ""%s"" before saving the sitemap.","Maak a.u.b. eerst de map ""%s"" aan voordat u de sitemap opslaat."
 "Please define correct path","Definieer correct pad"
+"Please enter a sitemap name with at most %s characters.","Voer een sitemapnaam in met maximaal %s tekens."
 "Please make sure that ""%s"" is writable by web-server.","Controleer a.u.b. of de webserver schrijfrechten heeft op ""%s""."
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in the filename. No spaces or other characters are allowed.","Gebruik alleen letters (a-z en A-Z), cijfers (0-9) of underscores (_) in de bestandsnaam. Spaties en andere tekens zijn niet toegestaan."
 "Priority","Prioriteit"

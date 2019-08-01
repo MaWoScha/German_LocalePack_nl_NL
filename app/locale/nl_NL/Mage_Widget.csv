@@ -6,6 +6,7 @@
 "All","Alles"
 "All Pages","Alle paginas"
 "All Product Types","Alle producttypes"
+"An error occurred during POST data validation: %s","Er is een fout opgetreden bij de validatie van POST-gegevensvalidatie: %s"
 "An error occurred during saving a widget: %s","Er is een fout opgetreden tijdens het opslaan van een widget: %s"
 "Anchor Categories","Verankerde Categorieen"
 "Apply","Toepassen"
